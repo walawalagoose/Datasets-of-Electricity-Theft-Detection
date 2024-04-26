@@ -21,7 +21,9 @@ HPCD是电力相关变量的多变量时间序列数据集，用于描述单个�
 # Electricity Consumption Dataset of State Grid Corporation of China (SGCC)
 来自 [SGCC](https://github.com/henryRDlab/ElectricityTheftDetection) ，在论文 [_Wide and Deep Convolutional Neural Networks for Electricity-Theft Detection to Secure Smart Grids, TII 2017_](https://ieeexplore.ieee.org/abstract/document/8233155/) 中使用。
 
-这是中国国家电网公司发布的现实用电量数据集。本数据集包含2014年1月1日至2016年10月31日1035天内 42372 个用电客户的用电量数据，带有真实异常标签。这是目前窃电检测最广泛使用的数据集，因为其存在的标注标签。
+这是中国国家电网公司发布的现实用电量数据集。本数据集包含2014年1月1日至2016年10月31日1035天内 42372 个用电客户的用电量数据，带有真实异常标签。
+
+这是目前窃电检测**最广泛使用**的数据集，因为其存在的标注标签。
 
 **关键词：多用户 单维度 有异常标签**
 # Electricity Transformer Dataset (ETDataset)
