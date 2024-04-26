@@ -64,3 +64,11 @@ HPCD是电力相关变量的多变量时间序列数据集，用于描述单个�
 该数据集包含异常标签，涉及多用户与多变量，但时间序列的标注很模糊。
 
 **关键词：多用户 多维度 有异常标签**
+# Irish Smart Energy Trials (ISET)
+来自 [Data from the Commission for Energy Regulation](https://www.ucd.ie/issda/data/commissionforenergyregulationcer/) 。
+
+该数据集使用爱尔兰智能能源试验(Irish Smart Energy Trials)，包含了2009年至2010年535天内1000多名消费者的用电数据，每个SM每30分钟报告一次细粒度的用电数据。
+
+由于原始数据集需经授权获得，我们暂时使用 https://github.com/Lanren9/Electricity-Theft-Detection 仓库中预处理后的该部分数据集，该仓库使用该数据集完成了工作 [_Privacy-Preserving Electricity Theft Detection Based on Blockchain, IEEE Transactions on Smart Grid 2023_](https://ieeexplore.ieee.org/abstract/document/10048496) 。后续我们将发送正式申请获取完整数据集。
+
+**关键词：多用户 单?维度 有异常标签**
