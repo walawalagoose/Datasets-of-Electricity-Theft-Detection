@@ -39,7 +39,7 @@ HPCD是电力相关变量的多变量时间序列数据集，用于描述单个�
 
 **关键词：数据集集合**
 # Smart Energy Meters in Bangalore India (SEMBI)
-来自 [Smart Energy Meters in Bangalore India](https://www.kaggle.com/datasets/unseemlycoder/smart-energy-meters-in-bangalore-india) 。
+来自 [Smart Energy Meters in Bangalore India](https://www.kaggle.com/datasets/unseemlycoder/smart-energy-meters-in-bangalore-india) ，数据公开发布在Kaggle平台，用于时间序列预测任务。
 
 数据集过大，还没来得及研究。
 # Electricity Theft Data on Kaggle (ETD on kaggle)
