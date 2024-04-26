@@ -41,3 +41,18 @@ HPCD是电力相关变量的多变量时间序列数据集，用于描述单个�
 # Smart Energy Meters in Bangalore India (SEMBI)
 来自[Smart Energy Meters in Bangalore India](https://www.kaggle.com/datasets/unseemlycoder/smart-energy-meters-in-bangalore-india)。数据集过大，还没来得及研究。
 
+# Electricity Theft Data on Kaggle (ETD on kaggle)
+来自[Electricity Theft Data by Avin Joseph](https://www.kaggle.com/datasets/avinemmatty/theft-data/data)。
+
+数据集格式与SGCC类似，包含窃电标签。但**数据可信度存疑**，其出现了**过于久远和未来的用电数据**，仅供参考。
+
+**关键词：多用户 单维度 有异常标签**
+# Theft Detection in Smart Grid Environment (TDSGE)
+来自 [Theft detection in smart grid environment](https://data.mendeley.com/datasets/c3c7329tjj/1) ，在论文[_Theft detection dataset for benchmarking and machine learning based classification in a smart grid environment_](https://www.sciencedirect.com/science/article/pii/S1319157822001562?ref=pdf_download&fr=RR-2&rr=87a79bc1ea43d5fd) 中被提出。
+
+该数据集包含 16 种不同类型消费者的能源消耗。原始数据包括多个客户一年（12 个月）的多个能耗测量值。每小时进行一次测量。  
+六种不同类型的欺诈被添加到原始数据集中。它们由一些消费者可能造成的不同类型的盗窃组成。第一种盗窃包括白天的电力消耗大幅减少。通过将消耗量乘以 0.1 到 0.8 之间的随机选择值来计算此减少量。在第二种类型的盗窃中，电力消耗在任意时间段内随机下降到零。第三种类型的盗窃与第一种类型类似，但每个消耗值（每小时）乘以一个随机数。为第四种类型的盗窃生成平均消耗的随机部分。第五种类型报告平均消耗量，最后一种类型（即第六种类型）颠倒了读数顺序。  
+原始数据是从开放能源数据倡议 （OEDI） 平台收集的。它是从美国能源部的项目、办公室和国家实验室汇总的高价值能源研究数据集的集中存储库。
+
+该数据集包含异常标签，涉及多用户与多变量，但时间序列的标注很模糊。
+**关键词：多用户 多维度 有异常标签**
