@@ -39,8 +39,9 @@ HPCD是电力相关变量的多变量时间序列数据集，用于描述单个�
 
 **关键词：数据集集合**
 # Smart Energy Meters in Bangalore India (SEMBI)
-来自[Smart Energy Meters in Bangalore India](https://www.kaggle.com/datasets/unseemlycoder/smart-energy-meters-in-bangalore-india)。数据集过大，还没来得及研究。
+来自[Smart Energy Meters in Bangalore India](https://www.kaggle.com/datasets/unseemlycoder/smart-energy-meters-in-bangalore-india)。
 
+数据集过大，还没来得及研究。
 # Electricity Theft Data on Kaggle (ETD on kaggle)
 来自[Electricity Theft Data by Avin Joseph](https://www.kaggle.com/datasets/avinemmatty/theft-data/data)。
 
@@ -64,11 +65,21 @@ HPCD是电力相关变量的多变量时间序列数据集，用于描述单个�
 该数据集包含异常标签，涉及多用户与多变量，但时间序列的标注很模糊。
 
 **关键词：多用户 多维度 有异常标签**
-# Irish Smart Energy Trials (ISET)
+# Irish Smart Energy Trials (Irish)
 来自 [Data from the Commission for Energy Regulation](https://www.ucd.ie/issda/data/commissionforenergyregulationcer/) 。
 
 该数据集使用爱尔兰智能能源试验(Irish Smart Energy Trials)，包含了2009年至2010年535天内1000多名消费者的用电数据，每个SM每30分钟报告一次细粒度的用电数据。
 
-由于原始数据集需经授权获得，我们暂时使用 https://github.com/Lanren9/Electricity-Theft-Detection 仓库中预处理后的该部分数据集，该仓库使用该数据集完成了工作 [_Privacy-Preserving Electricity Theft Detection Based on Blockchain, IEEE Transactions on Smart Grid 2023_](https://ieeexplore.ieee.org/abstract/document/10048496) 。后续我们将发送正式申请获取完整数据集。
+* 由于原始数据集需经授权获得，我们暂时使用 https://github.com/Lanren9/Electricity-Theft-Detection 仓库中预处理后的该部分数据集，该仓库使用该数据集完成了工作 [_Privacy-Preserving Electricity Theft Detection Based on Blockchain, IEEE Transactions on Smart Grid 2023_](https://ieeexplore.ieee.org/abstract/document/10048496) 。
+* 我们同时收集了仓库 https://github.com/rqi7/Unsupervised_Electricity_Theft_Detection?tab=readme-ov-file 的预处理后数据集，其使用该数据集完成工作[_A Novel Unsupervised Data-Driven Method for Electricity Theft Detection in AMI Using Observer Meters, IEEE Transactions on Instrumentation and Measurement 2022_](https://ieeexplore.ieee.org/abstract/document/9825697)。
+* 后续我们将发送正式申请，获取完整数据集。
 
-**关键词：多用户 单?维度 有异常标签**
+**关键词：多用户 单(?)维度 有异常标签**
+# LADPU Smart Meter Data (LADPU)
+来自 [LADPU Smart Meter Data](https://datadryad.org/stash/dataset/doi:10.5061/dryad.m0cfxpp2c) 。
+
+该数据集包含来自美国新墨西哥州洛斯阿拉莫斯公用事业部 （LADPU） 的电力消耗数据。该数据由新墨西哥州洛斯阿拉莫斯北梅萨的 1,757 户家庭的 Landis+Gyr 智能电表设备收集。采样率为每 15 分钟 1 次观测值（即每天 96 次观测值）。对于大多数客户来说，数据跨度约为六年，从 2013 年 7 月 30 日到 2019 年 12 月 30 日。但是，对于某些客户来说，该期限会缩短。数据集包含缺失值和重复的测量值。
+
+由于数据集过大，还没来得及研究。
+
+**关键词：多用户 (?)维度 (?)异常标签**
