@@ -39,17 +39,17 @@ HPCD是电力相关变量的多变量时间序列数据集，用于描述单个�
 
 **关键词：数据集集合**
 # Smart Energy Meters in Bangalore India (SEMBI)
-来自[Smart Energy Meters in Bangalore India](https://www.kaggle.com/datasets/unseemlycoder/smart-energy-meters-in-bangalore-india)。
+来自 [Smart Energy Meters in Bangalore India](https://www.kaggle.com/datasets/unseemlycoder/smart-energy-meters-in-bangalore-india) 。
 
 数据集过大，还没来得及研究。
 # Electricity Theft Data on Kaggle (ETD on kaggle)
-来自[Electricity Theft Data by Avin Joseph](https://www.kaggle.com/datasets/avinemmatty/theft-data/data)。
+来自 [Electricity Theft Data by Avin Joseph](https://www.kaggle.com/datasets/avinemmatty/theft-data/data) 。
 
 数据集格式与SGCC类似，包含窃电标签。但**数据可信度存疑**，其出现了**过于久远和未来的用电数据**，仅供参考。
 
 **关键词：多用户 单维度 有异常标签**
 # Theft Detection in Smart Grid Environment (TDSGE)
-来自 [Theft detection in smart grid environment](https://data.mendeley.com/datasets/c3c7329tjj/1) ，在论文[_Theft detection dataset for benchmarking and machine learning based classification in a smart grid environment_](https://www.sciencedirect.com/science/article/pii/S1319157822001562?ref=pdf_download&fr=RR-2&rr=87a79bc1ea43d5fd) 中被提出。
+来自 [Theft detection in smart grid environment](https://data.mendeley.com/datasets/c3c7329tjj/1) ，在论文 [_Theft detection dataset for benchmarking and machine learning based classification in a smart grid environment_](https://www.sciencedirect.com/science/article/pii/S1319157822001562?ref=pdf_download&fr=RR-2&rr=87a79bc1ea43d5fd) 中被提出。
 
 * 该数据集包含 16 种不同类型消费者的能源消耗。原始数据包括多个客户一年（12 个月）的多个能耗测量值。每小时进行一次测量。  
 * 六种不同类型的欺诈被添加到原始数据集中。它们由一些消费者可能造成的不同类型的盗窃组成。
@@ -71,7 +71,7 @@ HPCD是电力相关变量的多变量时间序列数据集，用于描述单个�
 该数据集使用爱尔兰智能能源试验(Irish Smart Energy Trials)，包含了2009年至2010年535天内1000多名消费者的用电数据，每个SM每30分钟报告一次细粒度的用电数据。
 
 * 由于原始数据集需经授权获得，我们暂时使用 https://github.com/Lanren9/Electricity-Theft-Detection 仓库中预处理后的该部分数据集，该仓库使用该数据集完成了工作 [_Privacy-Preserving Electricity Theft Detection Based on Blockchain, IEEE Transactions on Smart Grid 2023_](https://ieeexplore.ieee.org/abstract/document/10048496) 。
-* 我们同时收集了仓库 https://github.com/rqi7/Unsupervised_Electricity_Theft_Detection?tab=readme-ov-file 的预处理后数据集，其使用该数据集完成工作[_A Novel Unsupervised Data-Driven Method for Electricity Theft Detection in AMI Using Observer Meters, IEEE Transactions on Instrumentation and Measurement 2022_](https://ieeexplore.ieee.org/abstract/document/9825697)。
+* 我们同时收集了仓库 https://github.com/rqi7/Unsupervised_Electricity_Theft_Detection?tab=readme-ov-file 的预处理后数据集，其使用该数据集完成工作 [_A Novel Unsupervised Data-Driven Method for Electricity Theft Detection in AMI Using Observer Meters, IEEE Transactions on Instrumentation and Measurement 2022_](https://ieeexplore.ieee.org/abstract/document/9825697) 。
 * 后续我们将发送正式申请，获取完整数据集。
 
 **关键词：多用户 单(?)维度 有异常标签**
